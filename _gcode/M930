@@ -1,0 +1,17 @@
+Description
+when the printer collect to WIFI MODE, user screen display wifi collect status
+Notes
+At this time repeat markers only apply during SD printing.
+
+Usage
+M930 F<parameter> S<parameter>
+
+Parameters
+[F<parameter>]	
+parameter:1->wifi on   0-> wifi off
+[S<parameter>]
+parameter:1->wifi collect 0->wifi no collect
+
+Example
+M930 F1 S1
+WIFI Pointstatus on and wifi collected;
